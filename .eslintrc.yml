@@ -1,0 +1,10 @@
+parser: "babel-eslint"
+extends: "airbnb"
+rules: 
+    # http://eslint.org/docs/rules/indent
+    # indent 4 spaces (rather than airbnb's default of 2)
+    indent: 
+        - 2
+        - 4
+env: 
+    mocha: true
